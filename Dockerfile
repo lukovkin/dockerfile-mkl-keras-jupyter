@@ -4,7 +4,6 @@ RUN source activate keras \
   && conda install -y \
     jupyter \
     matplotlib \
-    networkx \
     seaborn
 
 VOLUME /notebook
